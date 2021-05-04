@@ -9,7 +9,7 @@ var c1 , c2 , c3;
 
 function preload(){
   //pre-load images
-andyImg = loadAnimation("https://assets.editor.p5js.org/5f6dd755fb3313002412ce46/5d1cfae2-9798-4ccc-a6ff-634a0ab662be.png","https://assets.editor.p5js.org/5f6dd755fb3313002412ce46/454d1149-66ed-4a5e-a726-060ed875feb8.png","https://assets.editor.p5js.org/5f6dd755fb3313002412ce46/2ba0d724-00bb-450f-95e4-4176add18394.png","https://assets.editor.p5js.org/5f6dd755fb3313002412ce46/9d172082-b3cb-483d-ba4e-e7d07d7001c4.PNG","https://assets.editor.p5js.org/5f6dd755fb3313002412ce46/094f0a6d-b533-4756-96d0-e7a9053b1cd6.png");
+andyImg = loadAnimation("jake1.png","jake2.png","jake3.png","jake4.png","jake5.png");
   
   groundImg = loadImage("path.png");
   
