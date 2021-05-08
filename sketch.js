@@ -9,7 +9,7 @@ var c1 , c2 , c3;
 
 function preload(){
   //pre-load images
-andyImg = loadAnimation("https://github.com/Andy-THE-Coder/runner/blob/main/jake1.png?raw=true","https://github.com/Andy-THE-Coder/runner/blob/main/jake2.png?raw=true","https://github.com/Andy-THE-Coder/runner/blob/main/jake3.png?raw=true","https://github.com/Andy-THE-Coder/runner/blob/main/jake4.png?raw=true","https://github.com/Andy-THE-Coder/runner/blob/main/jake5.png?raw=true");
+andyImg = loadAnimation("jake1.png","jake2.png","jake3.png","jake4.png","jake5.png");
   
   groundImg = loadImage("path.png");
   
