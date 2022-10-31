@@ -1,14 +1,15 @@
 var ground , groundImg;
-var andy , andyImg;
+var andy , andyImg, andyStuck;
 var sideA , sideB ;
 var CarIMG = new Array();
 var Carpos = [50 , 150 , 250]
 var c1 , c2 , c3;
-
+var gameState = 0;
 
 
 function preload(){
   //pre-load images
+andyStuck = loadImage("jake1.png");
 andyImg = loadAnimation("jake1.png","jake2.png","jake3.png","jake4.png","jake5.png");
   
   groundImg = loadImage("path.png");
@@ -84,7 +85,7 @@ function randomCar(){
 
 function draw() {
   background(0);
-
+  if(gameState === 1){
   if(frameCount%100 ===0){
     ground.velocityY = ground.velocityY+1;
     c1.velocityY = c1.velocityY + 1;
@@ -121,7 +122,7 @@ const z = setInterval(randomCar, 3000);
 
 
   if(andy.isTouching(c1) || andy.isTouching(c2) || andy.isTouching(c3)){
-     window.navigator.vibrate(50);
+     gameState =0;
      }
 
 
